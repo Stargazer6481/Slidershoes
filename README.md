@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/title.png" alt="Slidershoes Banner" width="600"/>
+  <img src="Slidershoes_wide.png" alt="Slidershoes Banner" width="600"/>
 </p>
 
 # Slidershoes
