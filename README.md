@@ -4,86 +4,75 @@
 
 # Slidershoes
 
-**An open source SteamVR "treadmill" using a mouse attached to your shoe with a slippery surface.**  
+**An open-source SteamVR "treadmill" using a mouse attached to your shoe with a slippery surface.**  
 Turn any space into an omni-directional locomotion platform without spending thousands of dollars.
 
 ---
 
-## ✨ Features
-- Works as a custom **SteamVR driver** (shows up in SteamVR status).
-- Tracks foot movement using a standard optical mouse.
-- Emulates an omni-directional treadmill at a fraction of the cost.
-- Open source, easy to hack and extend.
+## Features
+
+- Converts simple movements into virtual joystick input for VR games.
+- Lock the mouse to center while using a keyboard key to unlock.
+- Adjustable sensitivity slider for your preferred speed.
+- Real-time joystick visualizer with animated feedback.
+- Fancy dark-themed UI with your accent color (#f78036) and rounded controls.
+- Stops safely with F11 or the stop button.
+- Open source and customizable for your own setup.
 
 ---
 
-## 🛠 Installation
+## How I Built My Prototype
 
-1. **Download / Build**
-   - Clone this repo:
-     ```bash
-     git clone https://github.com/YOURNAME/Slidershoes.git
-     ```
-   - Open the project in **Visual Studio 2022** (x64).
-   - Build in **Release | x64** to produce `driver_slidershoes.dll`.
+1. **Shoes & Slippery Surface**  
+   - I used an old pair of extra shoes and added a slippery material to the bottom.  
+   - Almost anything slick works—plastic, Tupperware pieces, or smooth fabric.
 
-2. **Install Driver**
-   - Copy the built files into your SteamVR drivers folder:
-     ```
-     C:\Program Files (x86)\Steam\steamapps\common\SteamVR\drivers\slidershoes\
-     ```
-     Inside you should have:
-     ```
-     /bin/win64/driver_slidershoes.dll
-     /resources/icons/shoe_status_on.png
-     /resources/icons/shoe_status_off.png
-     /driver.vrdrivermanifest
-     ```
+2. **Staying in Place**  
+   - To simulate walking without moving in real life, you need some way to hold yourself in place.  
+   - Example: attach a light backpack to the ceiling with a little tension so it gently holds you back but doesn’t restrict movement too much.  
+   - (I haven’t done the backpack part yet, but testing with someone holding me worked well.)
 
-3. **Register with SteamVR**
-   - Restart SteamVR.
-   - In `steamvr.vrsettings`, ensure your driver is listed under `"steamvr" -> "activateMultipleDrivers": true`.
+3. **Mouse on the Shoe**  
+   - Mount a wireless mouse to the tip of one shoe.  
+   - You may need to take it apart to make it smaller and more comfortable.  
+   - The mouse acts as a motion sensor for walking in place.
 
-4. **Test**
-   - Put your slippery shoes on, attach a mouse, and check the SteamVR status window.  
-   - You should see your **Slidershoes tracker** appear.
+4. **Testing**  
+   - You can start by having someone gently hold you in place while walking in the slippery shoes.  
+   - Adjust sensitivity in the Slidershoes app to get smooth movement in VR.
 
 ---
 
-## 📂 Repository Structure
-Slidershoes/
-├─ SlidershoesDriver/ → Source code for the SteamVR driver
-├─ resources/icons/ → SteamVR status icons
-├─ docs/title.png → Banner image
-├─ driver.vrdrivermanifest → SteamVR driver manifest
-└─ README.md
+## Setup & Usage
+
+1. Build the `Slidershoes` project in Visual Studio.  
+2. Run `Slidershoes.exe`.  
+3. Click **START** to connect the virtual controller.  
+4. Adjust the **sensitivity slider** to your liking.  
+5. Lock the mouse to center using the checkbox and hold **Space** to temporarily unlock.  
+6. Stop safely with **STOP** or **F11**.  
 
 ---
 
-## 🖼 Icons
-Custom icons are provided for driver status:
-- `shoe_status_on`
-- `shoe_status_off`
-- `shoe_status_standby`
-- `shoe_status_standby_error`
-- `shoe_status_on_error`
+## Notes
+
+- Works best with a wireless mouse mounted securely to the shoe.  
+- Ensure you have enough space to walk safely.  
+- Slidershoes is experimental—use caution while testing.
 
 ---
 
-## 🚀 Roadmap
-- Add configuration UI (toggle mouse mode, sensitivity, etc.)
-- Support multiple mice (one per foot).
-- Community feedback and feature requests.
+## Future Plans
+
+- Implement ceiling backpack mount for consistent resistance.  
+- Explore multi-shoe/multi-mouse setups for better realism.  
+- Add VR overlay showing foot positions and step intensity.
 
 ---
 
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to add.
+## License
 
----
-
-## 📜 License
-MIT License — feel free to modify, share, and build on Slidershoes.
+MIT License. Feel free to modify, fork, and improve!
 
 ---
 
