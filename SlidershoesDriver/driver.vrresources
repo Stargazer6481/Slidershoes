@@ -1,0 +1,15 @@
+{
+  "jsonid": "vrresources",
+  "statusicons": {
+    "Controller": {
+      "Prop_NamedIconPathDeviceOff_String": "{slidershoes}/icons/shoe_status_off.png",
+      "Prop_NamedIconPathDeviceSearching_String": "{slidershoes}/icons/shoe_status_searching.png",
+      "Prop_NamedIconPathDeviceSearchingAlert_String": "{slidershoes}/icons/shoe_status_searching_alert.png",
+      "Prop_NamedIconPathDeviceReady_String": "{slidershoes}/icons/shoe_status_on.png",
+      "Prop_NamedIconPathDeviceReadyAlert_String": "{slidershoes}/icons/shoe_status_on_error.png",
+      "Prop_NamedIconPathDeviceNotReady_String": "{slidershoes}/icons/shoe_status_standby_error.png",
+      "Prop_NamedIconPathDeviceStandby_String": "{slidershoes}/icons/shoe_status_standby.png",
+      "Prop_NamedIconPathDeviceAlertLow_String": "{slidershoes}/icons/shoe_status_on.png"
+    }
+  }
+}

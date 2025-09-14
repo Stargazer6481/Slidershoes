@@ -1,0 +1,9 @@
+{
+  "name": "slidershoes",
+  "version": "0.1",
+  "author": "Stargazer",
+  "directory": "",
+  "resourceOnly": false,
+  "alwaysActivate": false,
+  "hmd_presence": [ "*.*" ]
+}
