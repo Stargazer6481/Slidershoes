@@ -88,5 +88,5 @@ MIT License — feel free to modify, share, and build on Slidershoes.
 ---
 
 <p align="center">
-  <sub>Made with ❤️ for VR hackers everywhere.</sub>
+  <sub>Made with love for cheap VR players everywhere.</sub>
 </p>
