@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5naHZ11MdGdCYssTF33d5n87mFNNwVi2GcxY9oLBTwv1A7qcsRHv/XysYZK+1NqazR8ThU9inqzLoRqCU9d82w==",
+  "success": true,
+  "projectFilePath": "E:\\GitHub\\Slidershoes\\Slidershoes\\Slidershoes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kyleh\\.nuget\\packages\\nefarius.vigem.client\\1.21.256\\nefarius.vigem.client.1.21.256.nupkg.sha512"
+  ],
+  "logs": []
+}
